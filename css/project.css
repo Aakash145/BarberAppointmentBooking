@@ -1,0 +1,289 @@
+body{
+  overflow-y: auto;
+  color: black;
+  background-color: rgb(227, 230, 233);
+}
+#menuText{
+  float: left;
+  width: 5%;
+  height: 7%;
+  margin-top: -0.5%;
+  font-size: medium;
+  font-weight: bold;
+  font-family:'Harrington','AR ESSENCE','AR CENA', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+#loginText{
+  float :  right;
+  margin-right : 1%;
+  font-size: medium;
+  font-family:'Harrington','AR ESSENCE','AR CENA', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+}
+#registerText{
+  float :  right;
+  margin-right : 2%;
+  font-size: medium;
+  font-family:'Harrington','AR ESSENCE','AR CENA', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+}
+#adminText{
+  float : right;
+  margin-right : 3%;
+  font-size: medium;
+  font-family:'Harrington','AR ESSENCE','AR CENA', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+header{
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family:'Harrington','AR ESSENCE','AR CENA', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  margin-left: 19%;  
+}
+
+div.menuDiv{
+  border: 1px solid black;
+  margin: -0.5%;
+  padding : 5px;
+  font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 0 5px 10px 0 rgba(49, 46, 46, 0.7);
+  top: 0;
+  position: sticky;
+  background-color: black;
+  color: white;
+}
+
+#caption{
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family:'Algerian','Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.serviceBox1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+  
+.serviceBox1 > div {
+  background-color: #f1f1f1ab;
+  width: 200px;
+  height: 120px;;
+  margin: 10px;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 200px;
+
+}
+.serviceBox2 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+  
+.serviceBox2 > div {
+  background-color: #575454;
+  width: 200px;
+  height: 120px;;
+  margin: 10px;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 200px;
+  color: white;
+  
+}
+#row1{
+  border: 1px solid black;
+  margin-top: 3%;
+  padding : 1px;
+  font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.700);
+}
+#form_login,#form_reg,#admin_login{
+  color: black;
+  margin-left: 28%;
+}
+label{
+   font-size: 1.5em;
+   font-weight: bold;
+}
+input{
+   border: 1px solid black;
+   padding: 7px;
+   margin: 4px;
+   width: 50%;
+   font-weight: bold;
+}
+.btn{
+  background-color: black;
+  color: white;
+}
+.sml_btn{
+  background-color: black;
+  color: white;
+  width: 15%;
+}
+
+.registerDiv {
+    display: none;  
+    position: fixed;  
+    z-index: 1;  
+    left: 0;
+    top: 0;
+    width: 100%;  
+    height: 100%;  
+    overflow: none;  
+    background-color: rgb(0,0,0);  
+    background-color: rgba(0,0,0,0.4);  
+  }
+  
+  .registerDiv2 {
+    background-color: rgb(227, 230, 233);
+    margin-top : 3%;
+    margin-left: 18%;
+    padding: 8%;
+    border: 1% solid #888;
+    width: 50%; 
+    margin-bottom: 10%;
+  }
+
+  .loginDiv {
+    display: none;  
+    position: fixed;  
+    z-index: 1;  
+    left: 0;
+    top: 0;
+    width: 100%;  
+    height: 100%;  
+    overflow: none;  
+    background-color: rgb(0,0,0);  
+    background-color: rgba(0,0,0,0.4);  
+  }
+  
+  .loginDiv2 {
+    background-color: rgb(227, 230, 233);
+    margin-top : 3%;
+    margin-left: 18%;
+    padding: 8%;
+    border: 1% solid #888;
+    width: 50%; 
+    margin-bottom: 10%;
+  }
+  .adminDiv {
+    display: none;  
+    position: fixed;  
+    z-index: 1;  
+    left: 0;
+    top: 0;
+    width: 100%;  
+    height: 100%;  
+    overflow: none;  
+    background-color: rgb(0,0,0);  
+    background-color: rgba(0,0,0,0.4);  
+  }
+  
+  .adminDiv2 {
+    background-color: rgb(227, 230, 233);
+    margin-top : 3%;
+    margin-left: 18%;
+    padding: 8%;
+    border: 1% solid #888;
+    width: 50%; 
+    margin-bottom: 10%;
+  }
+  .close {
+    color: rgb(0,0,0);
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -13%;
+    margin-right: -13%;
+    width: 5%;
+    height: 4%;
+    cursor: pointer;
+  }
+  .footer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    margin: -0.5%;
+    margin-top: 75px;
+  }
+  
+  .footer > div {
+    width: 250px;
+    text-align: center;
+    margin-left: 170px;
+    font-size: 10px;
+    color: white;
+  }
+  #userForm{
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    border: 2px solid black;
+    width: 50%;
+    margin-top: 3%;
+    padding: 3%;
+    text-align: left;
+    box-shadow: 2px 8px 14px 0 rgba(29, 28, 28, 0.7);
+  }
+  #userFormDiv{
+    margin-left:470px;
+  }
+  .chkLbl,.rad1,.rad2{
+    margin-left: -90px;
+  }
+  .btnUser{
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+  }
+  #userformHead{
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family:'Algerian','Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  }
+  a:link{
+    text-decoration: none;
+    color: white;
+  }
+  a:visited{
+    text-decoration: none;
+    color: white;
+  }
+  
+  #form_login{
+    margin-left: 30px;
+  }
+  #hisTab {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+    width: 100%;
+    border: 2px solid black;
+    
+  }
+  #hisTab th {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+  #hisTab td, #hisTab th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  .userCap{
+  background-color: black;
+  color: white;
+  width: 50%;
+  padding: 3px;
+  text-align: center;
+  }
